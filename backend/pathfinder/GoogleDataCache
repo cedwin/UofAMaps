@@ -1,0 +1,834 @@
+{
+    "routes": [
+        {
+            "overview_polyline": {
+                "points": "m{xeIdeusT`SaBxGyAbDnGBlJjAnCpAa@dBqCTqDcEqLAsF~EwT~@gChBe@fLeAfEfEfB`BfIHtLyAxEnA`DdFjE|LlD~DtAxGlFh^v@`HfDKzKF|_@AjyAFpk@CbAOrDoFzFsG~OQzT@dPr@~Ht@dO`@h{@V`PMfHmBtDaC~ReK|D[f^pAlm@RlT?rF@bDaAxImEvGyCpEs@hGHnF~AfKdHhHnDfEt@jLKjNq@`F@xWTjFd@lKdFdm@br@tMtNbFfDhN`E`P^dOdCpOtIvgH~vEhd@fYfH`CvNrB~B@nfC@jjCE~|@BpNxAxHrChIzFjM`RjHxNtJpMj[zOdLxDxDTlEOvKgD`HwCvJ{Ahb@Fj@?dn@F|G`A|OtH~o@bh@ldE~dDdL|EvMhA|bKCftGAhxD?l^TzGrAlLrGrdA~w@npCfvBptA~dAzLbJxJ|ErOdDzs@bFlu@rFvn@nEfr@nDxb@wC~kBgPz{@GbhY@dcHMreCDfcFDrRtC|nA~h@zBfArc@|RbeBvs@vPhBnzLsDj_Ci@dKB`OrA~uAze@pqA|c@rd@`Srj@vVlIxGjHtLvClIj`AfkF|c@zeClMrm@vHpPt^`a@zx@ly@vmAvnAvwBfyBzRbS`aAf`AxNtFxKn@brGArRLxDr@nO|IjiBdtA|`Dj`Cva@tYxNnDflEPzn@QhM|BpJxEnSdNtGrCzEp@rKoA~EoCbPgQzvBscCvgAunA`Z{^z`@ck@hImHhEiAff@]~~@Yzg@VpS~Ehd@rTbGbB`HTfJsAzQ_K~UqLrQuCvg@CzoDQhv@\\ncARrKbBpLnE|KrHhJtJdwA`nBrxDlhFxwGx_Jx}@rmAx~@duA~aA``BfrAbxBvOrQ~fA``Azk@rg@thAhaAdO|IrIzBfJv@xY?l`Bn@xuCX`oSAxjXI|oGDnjJaAf{QQjKeA~MuFt~BafBh[oUlKwEvHkAnWObsGL|eNJ|k@YbJaAr[}G|RJvn@dIxPx@nq@aBlh@BzaI@vh@AbvCQtg@gAzMHjRp@hOzAxFfBzK~GhEpEre@`y@jo@xhAnXl^pc@te@~`@fc@tKlJjM`FzDd@lOQ~SQdd@jDde@z@nSo@nGq@zSqEfQiJpUcQrJmDnMsA|V}C`ToHxLaL|RsTfRmS~KmGzIqBxQXhRvA`JHhH_CtRcMtT{QtNsH`Co@tIyAxHSbD@rD`M~BtQPpOiAbTUh`@kCzOkC|PAjUs@hIgG~Qi@rErAbHhFdGfApDFjHAdLKjNxDFjJT\\@hGLdBAJsMoDI"
+            }, 
+            "warnings": [], 
+            "bounds": {
+                "northeast": {
+                    "lat": 53.54439000000001, 
+                    "lng": -113.484
+                }, 
+                "southwest": {
+                    "lat": 51.04445, 
+                    "lng": -114.06055
+                }
+            }, 
+            "waypoint_order": [], 
+            "summary": "AB-2 S", 
+            "copyrights": "Map data \u00a92013 Google", 
+            "legs": [
+                {
+                    "distance": {
+                        "text": "299 km", 
+                        "value": 298507
+                    }, 
+                    "end_address": "Calgary, AB, Canada", 
+                    "via_waypoint": [], 
+                    "start_address": "Edmonton, AB, Canada", 
+                    "start_location": {
+                        "lat": 53.54439000000001, 
+                        "lng": -113.49091
+                    }, 
+                    "steps": [
+                        {
+                            "html_instructions": "Head <b>south</b> on <b>100 St NW</b> toward <b>102 Ave NW</b>", 
+                            "distance": {
+                                "text": "0.5 km", 
+                                "value": 534
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.54439000000001, 
+                                "lng": -113.49091
+                            }, 
+                            "polyline": {
+                                "points": "m{xeIdeusTnEg@lDa@^NbFg@h@YtAWn@EhBa@J@LB"
+                            }, 
+                            "duration": {
+                                "text": "2 mins", 
+                                "value": 103
+                            }, 
+                            "end_location": {
+                                "lat": 53.53964000000001, 
+                                "lng": -113.49
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>McDougall Hill NW</b>", 
+                            "distance": {
+                                "text": "0.3 km", 
+                                "value": 277
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53964000000001, 
+                                "lng": -113.49
+                            }, 
+                            "polyline": {
+                                "points": "w}weIn_usTJHJLHLx@zBf@zADJBLBN@N@b@@d@AvAEtBAf@Dd@BXDVFL"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 29
+                            }, 
+                            "end_location": {
+                                "lat": 53.53881000000001, 
+                                "lng": -113.49367
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>left</b> to stay on <b>McDougall Hill NW</b>", 
+                            "distance": {
+                                "text": "0.1 km", 
+                                "value": 130
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53881000000001, 
+                                "lng": -113.49367
+                            }, 
+                            "polyline": {
+                                "points": "qxweIlvusTJNJHJHNDH@HBD?D@DAHELKRUbAuA"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 46
+                            }, 
+                            "end_location": {
+                                "lat": 53.5378, 
+                                "lng": -113.49328
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Take the ramp on the <b>left</b> onto <b>Low Level Bridge</b>", 
+                            "distance": {
+                                "text": "0.8 km", 
+                                "value": 806
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.5378, 
+                                "lng": -113.49328
+                            }, 
+                            "polyline": {
+                                "points": "grweI~susTN[@AN]Li@Hm@@i@Co@Mu@c@eB?AAUgAaCe@q@O]Qk@Ie@Ca@AY?]@SBg@B]BYHc@Li@DUDS|CaNLo@DMH_@H[Ne@Zy@HKJINKFAdAMLCLCdASZG"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 65
+                            }, 
+                            "end_location": {
+                                "lat": 53.53591, 
+                                "lng": -113.48417
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>right</b> onto <b>Scona Rd NW</b>", 
+                            "distance": {
+                                "text": "0.9 km", 
+                                "value": 945
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53591, 
+                                "lng": -113.48417
+                            }, 
+                            "polyline": {
+                                "points": "mfweI`{ssTb@?zE_@VAP?P@TFVNVZNJTZx@rANTZb@JJJLHFFDLHHDHDLBLBLBN?N?jDDv@IX@`@A`@B^GrEaAb@K^EZ?\\?\\D`@F^FXDXHTFXPTNTPTP"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 65
+                            }, 
+                            "end_location": {
+                                "lat": 53.52776000000001, 
+                                "lng": -113.48567
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>right</b> onto <b>Saskatchewan Dr NW</b>", 
+                            "distance": {
+                                "text": "0.6 km", 
+                                "value": 642
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52776000000001, 
+                                "lng": -113.48567
+                            }, 
+                            "polyline": {
+                                "points": "osueIldtsTVZPVPZP\\Pf@Tj@Xx@bC|GXx@Rj@P`@VXlBdBT\\NVLXJ\\H\\DXDXFt@L`A`B|HDNAVDR"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 66
+                            }, 
+                            "end_location": {
+                                "lat": 53.52431000000001, 
+                                "lng": -113.49313
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>left</b> to stay on <b>Saskatchewan Dr NW</b>", 
+                            "distance": {
+                                "text": "0.3 km", 
+                                "value": 320
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52431000000001, 
+                                "lng": -113.49313
+                            }, 
+                            "polyline": {
+                                "points": "}}teI`susT\\zA\\tD~@fIDT`@dFTz@"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 66
+                            }, 
+                            "end_location": {
+                                "lat": 53.52338, 
+                                "lng": -113.4977
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>104 St NW S</b>", 
+                            "distance": {
+                                "text": "3.3 km", 
+                                "value": 3340
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52338, 
+                                "lng": -113.4977
+                            }, 
+                            "polyline": {
+                                "points": "cxteIrovsTVKnC?lCDjD?l@?r@@vAC`EA~A?zAAR@xD?~DDxDA|DC~DFzD@fC?~MAvD?~D?jEBzD?tECvDBhD?JAtDArBBz@?`DEZ?nDBzDB~DEvDA`EBlHAPAPANE"
+                            }, 
+                            "duration": {
+                                "text": "6 mins", 
+                                "value": 381
+                            }, 
+                            "end_location": {
+                                "lat": 53.49336, 
+                                "lng": -113.49764
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>Calgary Trail NW</b>", 
+                            "distance": {
+                                "text": "4.0 km", 
+                                "value": 3999
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.49336, 
+                                "lng": -113.49764
+                            }, 
+                            "polyline": {
+                                "points": "o|neIfovsTNELILIVS~BgEHOf@_An@}@JQV[LMlA}@XK`AKXA~@@bFCl@AZ?\\?v@?b@AZ?r@AjAApFDL?xB@`C?~B?h@?vDFbEj@bBLfBRz@Jv@FD@\\Bb@DL@rAJfBDjC@fB?`@?TAdJ@zE@jGDhGBvJD`KDlA?L@Z@bBC|@@hB?`@?zBOtB]LCr@WnBs@^O`@Sr@a@~@{@zIyF|@a@pCkArA]p@Kh@Gl@Er@AdB@p@@"
+                            }, 
+                            "duration": {
+                                "text": "7 mins", 
+                                "value": 412
+                            }, 
+                            "end_location": {
+                                "lat": 53.45828, 
+                                "lng": -113.49243
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>AB-2 S</b> (signs for <b>19 Ave E</b>)", 
+                            "distance": {
+                                "text": "283 km", 
+                                "value": 283128
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.45828, 
+                                "lng": -113.49243
+                            }, 
+                            "polyline": {
+                                "points": "gaheItnusTT@lCLxNr@vAD\\@z@@@?FAH?L?H?D?D?h@?R?tC@~MErA@F?pHFlGLdA@lKDtCA~ADh@IjBJfCIvAYjAg@pCuAvC{ATKXOzBiAfAg@z@_@VGxAa@RA~@Ib@Er@KhAAv@DrAP|B`@DB\\NlAh@pAx@bBfA~AjApBvAZTb@Xl@`@l@XPHfAb@^NRDt@R`@J|ATP?l@F|JSlHy@|DFbB?@?T@dB?dFB`DB|GDrBF`BDhC^nBl@|GvDtC|B`AlAlEjF~_@jd@zIdKxBnBhClBxAx@xBbArBr@lCn@lBXzALdMPdIp@~DrAnD|A`JvFldCb`BhbDzuBjRjMxKxGzAt@fAj@nBr@vDlA`Fz@tGv@t@@\\?P?X?nEF~WChf@Gt_ADxEGbd@A\\?X?`Y?`L@fJ?hj@@lx@AD?Z?nBDdCHdCTzBXhB^z@TfA\\vAh@|At@lDtBzCdC|FjHlEtHvAvCrE`JlEvGfDxDvE~CzCxA~JrEvClAjCnAxAl@pA`@lBXx@JdBHP?F?L@DAV?`@A\\?NAf@Ch@Gj@Gh@Kh@Kj@Ol@Sj@Sj@UdBy@jB}@P@hAm@xAm@|Ae@zAY|AQ~AId@?r@?F?J?xC@jIBjL@hB?T?D?D?H?ti@AnCHnCVlCh@jCt@fCfAfCrA`CbBdOpLdGzEtFnE|OdMrNdLtGbFxDxCvHfGlv@~m@tSdPbiAn}@hF|Dv@f@~Az@xAl@rDjApBd@hANf@BrFNz\\BD?`AAv@?rGAduGAvk@AnU?jC?D?j^?ry@?lo@AnhA?`d@?tV?@?~UAxwC@lH?jWB`FPhEr@pA^jBt@rCxAJH`DxB|ErDpQdNjGxEvb@j\\vDrCh`@dZvT|Pha@|ZxVnR~GpFnPlM@@tPnMrKhIrX|S`ChB`K~HfIhG~@r@f@^hEfDpFzDbEzBtD`BnDfAbB`@dB\\xC\\fBNvAJ~DXvDVv@JbHd@pNbAtG^nIj@|DVtD`@xJt@~@DrE^vAFbHh@f@DP@ZB^BlBLpAJpDXn_@jCvKx@nKt@lEX~AJ~@D~CLvDBxB@F?\\AtFUjG_@dHo@~@I^EjE_@lLeAd^{CzOwAxCWdHm@xD_@~OuAtIq@rBG~ACT?r@?~@AjAAv@?d@?|C?fDBlC?vEAd@AlBBvG?zHBjH?juA?H?xv@HfAELB~kACvhCFl}BCj^?bVAR?jR?hn@MpoAJ~mCAfy@EfJ?nCADAfPH~ZE^@hPAlN@fYCvC@dF?hS?bb@Af]IbNBtMArd@C\\?jpAJt_E@pb@B|LpAtDbAfz@j^zPbHVJ`Ab@@?NHbAf@d@TfPfHpAj@pB|@fLjFvpAdj@bIjDhDjA|Cx@~@Tl@Nv@L~@J|APxAJx@F~ABn@Ar@@tB?b@?`@?vaA_@pA?|NIjvBk@`o@Ohu@WftA_@bSKjQGfAAn@?TAdA?bVEjeBa@X?jJBnELpHdAxHbCfVlIlP`Gnc@fOnW~I`y@|XvMfFzUxKxa@zQxGzCvE~CtBxB`C~ChDtGT`@`CjHdBnHRdAdj@z|CjQtaA~Gz_@`EdUxHzb@`K|j@fDbRrC|NnAxE`AvCjC|GjDrGvErG|WlXdAfA|XfYfZlZnAnApAnA||@x}@rHxHrCrC\\\\PPbBdBlS|Sz@x@~FfGnSzSh`At`AJJ~A~AXZ~H`Ij@l@h@j@n@n@n@n@lm@bn@nAjAjBhBhChCfC`C^Z|@n@fAt@`An@lAl@fAf@x@Zx@Xt@R~@Tv@Nl@Jn@Jl@F`@Bj@F`@?bA@xA@`M?nHB~m@CfK@|m@?`jA?zq@AlRAbJ@t@GTAV@\\@f@Bp@Dr@Fb@Db@H`ARn@Nz@ZvBv@~Az@zFlEXRb^zWtRvNtFlEh@`@ph@b`@d@Z~AlAVPpcAru@fXhSt]nWh@`@h@b@pSlOnLvIdCjB`OvK~C~B`Ap@r@f@l@`@j@\\~Av@fBt@bCt@j@NlAV`@FZD`AJR@hBFb\\?jE?B?N?T?nA?xYAxA?jE@rGAdH@`MA|G?|}@AzULpC?dNE~ACx@AnBCdJC|CAtBBpC`@r@LhDj@xA`@nBt@lAj@xAt@xA`AtEbDzBvAvCpBdDvBvBfAf@Vr@V`AZ`@Jb@JlANfAH`A?rBGjAOpCw@bAc@l@Y`@WjAy@bEgENOj@o@bH_IDGd`B_jBhCcDbGcHfFcGFGFGhAoAxCgDpPuQzPgSn_@ob@|EsFhJcLlGsIJOXc@JMJUd@u@DGnHgKdRyWfA{AtBoBrE}DhBk@~A]x@KzYWxGDv@?xMKlJAlXAhKItJDjUIfDNp@JPB~@LnAP~B`@xA`@jCv@hBp@^LrCrAn\\zOj@`@x@`@jAb@ZLnBb@j@L~@Lh@FjB@jAAz@CvAIzBc@vAa@vCoANKpCaB`HaE~KuGnAi@hAg@dDiAnC}@hCa@dFi@rAKz\\ItCFf@?|CAp|BSpq@@T?@?b@?fXFxLZbNEj}@DbELnBTbHlAxG|BvCpAtEnCfEbDvCzCpExEdIhL~lAv`BxeA~wA|\\vd@bWf]v{@lkAde@~n@fOzS`h@`s@ni@~s@duA|jBz^zf@tVv\\`@h@JNpJfM`f@~o@xJzMrF`I`FtHfX`a@zVj_@zBtDpCrEfLjRPVFL|Wzb@nDzF`MlSv`@`p@`l@j`AbBvCh@|@bB`CbBxBlCxC`E|DxEbEnE|DrHpGbFpEvG|F|TxRxEdElC|BlC~BxBpBhAbA|ApAnJlIbEtDvInH~AvAtVdTtVpTnRvPxExDhI|FzD~AnFrAbBf@f@Jb@HnBRjDLr@@lUCfA@N?F?d@?|ZZbT?dIB~BPjUEjIBxRNtIE|SBzUBrK@tVBvGAl^BbHAjb@?jy@@|tDD~tDEveACvO@rs@@fSGD?pNBpE@jA?F?H?rB?jK@hY?`QDtH@jr@?tw@AhLDblB@vB?vv@AnuDY`uDAjh@D|VBvVIv@BD?z@@tQ@|EJ|\\?l`@?|^?|tCIvzADjJEzPOfTMjTOxr@Op}BAnTAX?pN?hHDx{C@pj@IbiC@bf@Ate@KhN@vV@|X@ff@EN?p@?~e@?|OCfBEdAG~AS|Bc@pA_@bCu@|BeAjCyAxGcFjIiGj^eXhVwQlUeQdNgKpG_FrFgE|EqDrG{EfHkFnBuAp@c@p@a@~As@hE}AnA[~@QtASpAIfCKfCAH?tNA|d@AtIBpr@DjxB?zb@BR?D@zP?`UElNBhMEfYB`FEniDDlyA?zkCNRMtf@KX?xB?xAExAQzBYr@OPDzQ}EdCe@~C_@vDOhCC|CJ|CRzc@~FfD\\^BrCb@zC^|CLdBJxC?`CCbFStUs@rOUbB?xA?~T?nLBxUCzkANxpAOxkB@nA?`D@~T@~A?h@?\\?rEA~E?lG?~F?vE?tA?|H?~GAlKBrFAfLEt@?@?bPDjEAtA?|\\AnBA~PHtLKZA|CGdSq@fFQl@CbEAdB@b@?H?`@?h@?nE?j@@T@B?@?|@@zABX?`BBtK^xAL~LfAhARpBd@fC`ApB`A`CvA|CzBHHnAlAl@n@f@j@b@f@l@x@j@t@d@t@j@~@p@jA|CpF|K~RxL|SjDdGfHdMf@|@T`@@BT^f\\zk@x@lAhAjBr@fA|@rAbB`CvBtC|@hAhGnHnArA~JvKfIxIbAdA@@\\\\~@bAtD~DnBxBdDtDhCnCjHvH|@bAhApAlAnAjCtC`ClCn@p@v@z@z@z@~@x@`At@f@^h@^\\Rd@Xz@d@t@\\fAd@d@Rr@TzA`@t@Pp@Jh@Ht@Hh@DhBJ~A?t@AlG[R?rBI`BEv@AnACvAApB@bBBjABpADjAF|Fd@pLhA|@HzD\\P@rHb@dDNrEH~D?tC@hDATA@?dDCrBEv@Cz@C|@Ez@Ez@GjAIh@Gj@EdAKrBWjF{@jB]rEiAnBm@x@Yx@]t@[zAq@nC{A~@o@z@m@t@i@pAcApDuCfFcEvCqBTQLEPMVMjCmAb@QbBi@~Ac@vAWd@Id@EjHk@~CYtAMJCxDa@^EBAfBQtDu@`G}ApAa@xAe@hAe@fAe@^S\\Sb@Uf@]n@a@j@c@r@k@h@g@d@c@x@}@vBgC`BoBjAuADERUDEzAgBnEyEbCiCd@i@`F{FrAyAv@{@j@q@~@_Az@w@j@g@xB{Ah@]j@[?ANIr@_@r@]vAm@PGPGPIrAa@n@Mr@On@K|@K`CMpACjB@xGh@pJt@N@tE\\P@jBNf@@f@Bh@?`@A\\A`@CXC\\EZGx@Sd@O^O^O^Qn@[fAm@~BuAFEtBkAVQbBkAjBsAfA{@lByA?AjD{CXWXWxBiBpD{Cz@m@lA}@zA_AdF}BdBw@~Au@"
+                            }, 
+                            "duration": {
+                                "text": "2 hours 31 mins", 
+                                "value": 9037
+                            }, 
+                            "end_location": {
+                                "lat": 51.05339000000001, 
+                                "lng": -114.0196
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Take exit <b>256</b> for <b>Memorial Drive W</b>", 
+                            "distance": {
+                                "text": "0.5 km", 
+                                "value": 514
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.05339000000001, 
+                                "lng": -114.0196
+                            }, 
+                            "polyline": {
+                                "points": "ujrvHnm|vTRFD?FApEcAbCUzAI|EIj@?dAE`@BNBPPFJTb@"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 35
+                            }, 
+                            "end_location": {
+                                "lat": 51.04888, 
+                                "lng": -114.01942
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Merge onto <b>Memorial Dr NE</b>", 
+                            "distance": {
+                                "text": "2.1 km", 
+                                "value": 2069
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04888, 
+                                "lng": -114.01942
+                            }, 
+                            "polyline": {
+                                "points": "onqvHjl|vT\\xAT|@DN\\rAj@bCZvATjANz@Hf@NtAJdAN~AFpAJpBBzABlA?hA?D?jA?l@Aj@ARCvAAZG|AMnBQ`CIdAOdCI~ACv@A\\EbC?N?H?^?\\A~@?jA@p@?hB@|D?`A?l@A`AAd@E~@G~@Gd@CTQ`Aa@dB{@pC_@tAYdAQp@Id@ADI\\ANg@tGAdBAbB@tA@vA@zB?dBA~@Ap@ARAr@E`@AZE^MhAGh@Kn@Y`B]xAUdA"
+                            }, 
+                            "duration": {
+                                "text": "2 mins", 
+                                "value": 109
+                            }, 
+                            "end_location": {
+                                "lat": 51.05003000000001, 
+                                "lng": -114.04778
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Take the <b>4 Avenue South</b> ramp to <b>City Centre</b>", 
+                            "distance": {
+                                "text": "0.7 km", 
+                                "value": 706
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.05003000000001, 
+                                "lng": -114.04778
+                            }, 
+                            "polyline": {
+                                "points": "uuqvHr}awTIHk@pA]|@oArCUn@AFMh@Mn@Gd@AL?FAX?Z?f@@J@T?FBZ@@BRD\\FVDN@DDH@HJNDJTb@RVDFLNJJHJXXd@`@b@`@TVHLBBLPDJFHBFBD@DBDLZLZHXJ^H^DRBXBP@T@R?^?tAAZAbAD^"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 47
+                            }, 
+                            "end_location": {
+                                "lat": 51.04915, 
+                                "lng": -114.05591
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Merge onto <b>4 Ave SE W</b>", 
+                            "distance": {
+                                "text": "0.3 km", 
+                                "value": 309
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04915, 
+                                "lng": -114.05591
+                            }, 
+                            "polyline": {
+                                "points": "epqvHlpcwTGdKKjN"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 64
+                            }, 
+                            "end_location": {
+                                "lat": 51.04925, 
+                                "lng": -114.06032
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>1 St SE S</b>", 
+                            "distance": {
+                                "text": "0.5 km", 
+                                "value": 528
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04925, 
+                                "lng": -114.06032
+                            }, 
+                            "polyline": {
+                                "points": "ypqvH~kdwTxDF~DFjDLP?J@tDHrABdBA"
+                            }, 
+                            "duration": {
+                                "text": "3 mins", 
+                                "value": 180
+                            }, 
+                            "end_location": {
+                                "lat": 51.04451, 
+                                "lng": -114.06054
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>9 Ave SE</b>", 
+                            "distance": {
+                                "text": "0.2 km", 
+                                "value": 163
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04451, 
+                                "lng": -114.06054
+                            }, 
+                            "polyline": {
+                                "points": "espvHjmdwTJsM"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 67
+                            }, 
+                            "end_location": {
+                                "lat": 51.04445, 
+                                "lng": -114.0582
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Take the 1st <b>left</b> onto <b>Macleod Trail SE</b><div style=\"font-size:0.9em\">Destination will be on the right</div>", 
+                            "distance": {
+                                "text": "0.1 km", 
+                                "value": 97
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04445, 
+                                "lng": -114.0582
+                            }, 
+                            "polyline": {
+                                "points": "yrpvHv~cwToDI"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 59
+                            }, 
+                            "end_location": {
+                                "lat": 51.04533000000001, 
+                                "lng": -114.05815
+                            }
+                        }
+                    ], 
+                    "duration": {
+                        "text": "3 hours 1 min", 
+                        "value": 10831
+                    }, 
+                    "end_location": {
+                        "lat": 51.04533000000001, 
+                        "lng": -114.05815
+                    }
+                }
+            ]
+        }
+    ], 
+    "status": "OK"
+}
+{
+    "routes": [
+        {
+            "overview_polyline": {
+                "points": "_zveIl|vsTB}M_@uQ_GkX_BoP[yGVgFfCeCdEOhE~E|An@`KGrHsA|BT|DxBtGvPjDlE~@lBpCnP`ClRf@zFl@n@vNDlLC|e@H~rA?va@KdHcK~ByBtDWvNIh\\LjQlB~lAp@lHArHiAdFyBjRcL|Ew@`FBlYhA|`A^tJa@jKeFxGaDdEu@xEMtFfAbQ`LpJrC~@FjTmAxHHjWLtELxFlArLtHnGxHzj@pp@bG|EtM`FhEf@jWbAnJpDnoCzgBjeEvnCvD~AxKhCzJx@dtDG~wC@vN~@dI|BjGjDxKpLfUfa@~JxIzOlHnMlFrIn@`Ho@~MqFpJ_C`EIh`@F~r@^hPzFdrAjdA~~C|eCzMnIvKdCvf@PvfKEd`LAx`@BjLdA|IxDnfCpmBrkCfrBj[fVfT~NnPhFxOrA~}@rG~a@xCvkAlIvNb@tKUlwAyLxu@yFrtCBnaa@Q`qGLpb@B|LpA|_An`@rQnHvCtApWfLlmBhy@bIlBjRt@tmM{D`xBOjRhEtg@nQxdCl{@tx@t^pNzHvFxG~DvHfFzQxj@`_Dfj@r|ClWxtAlEtLbKfPhoAjpAztA|uAh{Dn}DnJvI~GzDlLnC`hHDlIx@bI~Cnz@tn@htClvBr{A~hAnExCvJrDlEp@lf@Hlo@AvkC@lTKdN~ApJxDbQnLxJnFtEbAhIMdHmCjIaIxmBkyBly@m_Alf@cj@vRwV|@wA`]_f@|DkE|HiFxCi@tb@Qlt@Orr@@rEn@nMlDnc@~SpGvB`Gd@zIs@pK_FzYiPtHgCnJkAle@MvtDSfg@b@nlA?rHb@|PjElJ`F~I~HvObSziEv}Ff{CjdEhkFrfHvr@tcApl@`_Af~BpwD~JrM~[pYrz@bu@ddBlzAbPvLjLrD~GpAp|@h@nvB`@fiEJ|`RDdaNSrdHDfeBJ|mGY~{Eo@dn@Bh`NMhoAEjXe@pM_E|u@mj@|dBgqArHoEnL_Df~BQ~~TGhLq@fXmG~Rg@`o@tHrP|Ate@kApnFUnuEDvmAE`c@Ex`@oA~S@fUj@tUnCxOvIrI`KzwA|eCbPpSzYj[`^z_@fSrThK`HdMbDhHNvNk@~SNh\\vC~T~@hZOxM{@~S{DxGaCfJkF`PgMxNoHpXcDdI{@bR{EvJmFng@qj@zMcLdGqCfFkA|J[~`@vCxGm@dKgF~TqP~IuHjMiHdEmBnX_HlAUhGsCnEiF`D{H~FmRbF}LrFqE~PeFxD}@dBD|A~Ap@dKCdG_C`]]xNc@n@Bt@b@pIDx^a@rCgQnn@sHnZtC~A`@aA"
+            }, 
+            "warnings": [], 
+            "bounds": {
+                "northeast": {
+                    "lat": 53.53596, 
+                    "lng": -113.48419
+                }, 
+                "southwest": {
+                    "lat": 51.03706, 
+                    "lng": -114.04731
+                }
+            }, 
+            "waypoint_order": [], 
+            "summary": "AB-2 S", 
+            "copyrights": "Map data \u00a92013 Google", 
+            "legs": [
+                {
+                    "distance": {
+                        "text": "298 km", 
+                        "value": 297993
+                    }, 
+                    "end_address": "1036-1042 10 Avenue Southeast, Calgary, AB T2G 0S8, Canada", 
+                    "via_waypoint": [], 
+                    "start_address": "97 Avenue Northwest, Edmonton, AB T5K, Canada", 
+                    "start_location": {
+                        "lat": 53.53392, 
+                        "lng": -113.49975
+                    }, 
+                    "steps": [
+                        {
+                            "html_instructions": "Head <b>east</b> on <b>97 Ave NW E</b> toward <b>104 St NW</b>", 
+                            "distance": {
+                                "text": "0.4 km", 
+                                "value": 405
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53392, 
+                                "lng": -113.49975
+                            }, 
+                            "polyline": {
+                                "points": "_zveIl|vsT@eA@cB?sB?_EA{C?iEM{COsAQaAQ}@"
+                            }, 
+                            "duration": {
+                                "text": "2 mins", 
+                                "value": 111
+                            }, 
+                            "end_location": {
+                                "lat": 53.53424, 
+                                "lng": -113.49373
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>98 Ave NW E</b>", 
+                            "distance": {
+                                "text": "0.6 km", 
+                                "value": 598
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53424, 
+                                "lng": -113.49373
+                            }, 
+                            "polyline": {
+                                "points": "_|veIxvusToBsGm@wCm@qDGi@AIEYE[M}@M_AMcAI_AO}AK}AIuAIqAOoCAq@?EAw@Aq@?s@"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 36
+                            }, 
+                            "end_location": {
+                                "lat": 53.53598, 
+                                "lng": -113.48531
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>right</b> onto the <b>Scona Road S</b> ramp to <b>99 Street</b>", 
+                            "distance": {
+                                "text": "0.3 km", 
+                                "value": 253
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53598, 
+                                "lng": -113.48531
+                            }, 
+                            "polyline": {
+                                "points": "{fweIdbtsTZiAXu@d@i@d@Y`@KtBWVCPBd@Fd@N"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 17
+                            }, 
+                            "end_location": {
+                                "lat": 53.53398000000001, 
+                                "lng": -113.48427
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Merge onto <b>Scona Rd NW</b>", 
+                            "distance": {
+                                "text": "0.7 km", 
+                                "value": 726
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.53398000000001, 
+                                "lng": -113.48427
+                            }, 
+                            "polyline": {
+                                "points": "kzveIt{ssTNJTZx@rANTZb@JJJLHFFDLHHDHDLBLBLBN?N?jDDv@IX@`@A`@B^GrEaAb@K^EZ?\\?\\D`@F^FXDXHTFXPTNTPTP"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 51
+                            }, 
+                            "end_location": {
+                                "lat": 53.52776000000001, 
+                                "lng": -113.48567
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>right</b> onto <b>Saskatchewan Dr NW</b>", 
+                            "distance": {
+                                "text": "0.6 km", 
+                                "value": 642
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52776000000001, 
+                                "lng": -113.48567
+                            }, 
+                            "polyline": {
+                                "points": "osueIldtsTVZPVPZP\\Pf@Tj@Xx@bC|GXx@Rj@P`@VXlBdBT\\NVLXJ\\H\\DXDXFt@L`A`B|HDNAVDR"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 66
+                            }, 
+                            "end_location": {
+                                "lat": 53.52431000000001, 
+                                "lng": -113.49313
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Slight <b>left</b> to stay on <b>Saskatchewan Dr NW</b>", 
+                            "distance": {
+                                "text": "0.3 km", 
+                                "value": 320
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52431000000001, 
+                                "lng": -113.49313
+                            }, 
+                            "polyline": {
+                                "points": "}}teI`susT\\zA\\tD~@fIDT`@dFTz@"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 66
+                            }, 
+                            "end_location": {
+                                "lat": 53.52338, 
+                                "lng": -113.4977
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>104 St NW S</b>", 
+                            "distance": {
+                                "text": "3.3 km", 
+                                "value": 3340
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.52338, 
+                                "lng": -113.4977
+                            }, 
+                            "polyline": {
+                                "points": "cxteIrovsTVKnC?lCDjD?l@?r@@vAC`EA~A?zAAR@xD?~DDxDA|DC~DFzD@fC?~MAvD?~D?jEBzD?tECvDBhD?JAtDArBBz@?`DEZ?nDBzDB~DEvDA`EBlHAPAPANE"
+                            }, 
+                            "duration": {
+                                "text": "6 mins", 
+                                "value": 381
+                            }, 
+                            "end_location": {
+                                "lat": 53.49336, 
+                                "lng": -113.49764
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>Calgary Trail NW</b>", 
+                            "distance": {
+                                "text": "4.0 km", 
+                                "value": 3999
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.49336, 
+                                "lng": -113.49764
+                            }, 
+                            "polyline": {
+                                "points": "o|neIfovsTNELILIVS~BgEHOf@_An@}@JQV[LMlA}@XK`AKXA~@@bFCl@AZ?\\?v@?b@AZ?r@AjAApFDL?xB@`C?~B?h@?vDFbEj@bBLfBRz@Jv@FD@\\Bb@DL@rAJfBDjC@fB?`@?TAdJ@zE@jGDhGBvJD`KDlA?L@Z@bBC|@@hB?`@?zBOtB]LCr@WnBs@^O`@Sr@a@~@{@zIyF|@a@pCkArA]p@Kh@Gl@Er@AdB@p@@"
+                            }, 
+                            "duration": {
+                                "text": "7 mins", 
+                                "value": 412
+                            }, 
+                            "end_location": {
+                                "lat": 53.45828, 
+                                "lng": -113.49243
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Continue onto <b>AB-2 S</b> (signs for <b>19 Ave E</b>)", 
+                            "distance": {
+                                "text": "285 km", 
+                                "value": 284614
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 53.45828, 
+                                "lng": -113.49243
+                            }, 
+                            "polyline": {
+                                "points": "gaheItnusTT@lCLxNr@vAD\\@z@@@?FAH?L?H?D?D?h@?R?tC@~MErA@F?pHFlGLdA@lKDtCA~ADh@IjBJfCIvAYjAg@pCuAvC{ATKXOzBiAfAg@z@_@VGxAa@RA~@Ib@Er@KhAAv@DrAP|B`@DB\\NlAh@pAx@bBfA~AjApBvAZTb@Xl@`@l@XPHfAb@^NRDt@R`@J|ATP?l@F|JSlHy@|DFbB?@?T@dB?dFB`DB|GDrBF`BDhC^nBl@|GvDtC|B`AlAlEjF~_@jd@zIdKxBnBhClBxAx@xBbArBr@lCn@lBXzALdMPdIp@~DrAnD|A`JvFldCb`BhbDzuBjRjMxKxGzAt@fAj@nBr@vDlA`Fz@tGv@t@@\\?P?X?nEF~WChf@Gt_ADxEGbd@A\\?X?`Y?`L@fJ?hj@@lx@AD?Z?nBDdCHdCTzBXhB^z@TfA\\vAh@|At@lDtBzCdC|FjHlEtHvAvCrE`JlEvGfDxDvE~CzCxA~JrEvClAjCnAxAl@pA`@lBXx@JdBHP?F?L@DAV?`@A\\?NAf@Ch@Gj@Gh@Kh@Kj@Ol@Sj@Sj@UdBy@jB}@P@hAm@xAm@|Ae@zAY|AQ~AId@?r@?F?J?xC@jIBjL@hB?T?D?D?H?ti@AnCHnCVlCh@jCt@fCfAfCrA`CbBdOpLdGzEtFnE|OdMrNdLtGbFxDxCvHfGlv@~m@tSdPbiAn}@hF|Dv@f@~Az@xAl@rDjApBd@hANf@BrFNz\\BD?`AAv@?rGAduGAvk@AnU?jC?D?j^?ry@?lo@AnhA?`d@?tV?@?~UAxwC@lH?jWB`FPhEr@pA^jBt@rCxAJH`DxB|ErDpQdNjGxEvb@j\\vDrCh`@dZvT|Pha@|ZxVnR~GpFnPlM@@tPnMrKhIrX|S`ChB`K~HfIhG~@r@f@^hEfDpFzDbEzBtD`BnDfAbB`@dB\\xC\\fBNvAJ~DXvDVv@JbHd@pNbAtG^nIj@|DVtD`@xJt@~@DrE^vAFbHh@f@DP@ZB^BlBLpAJpDXn_@jCvKx@nKt@lEX~AJ~@D~CLvDBxB@F?\\AtFUjG_@dHo@~@I^EjE_@lLeAd^{CzOwAxCWdHm@xD_@~OuAtIq@rBG~ACT?r@?~@AjAAv@?d@?|C?fDBlC?vEAd@AlBBvG?zHBjH?juA?H?xv@HfAELB~kACvhCFl}BCj^?bVAR?jR?hn@MpoAJ~mCAfy@EfJ?nCADAfPH~ZE^@hPAlN@fYCvC@dF?hS?bb@Af]IbNBtMArd@C\\?jpAJt_E@pb@B|LpAtDbAfz@j^zPbHVJ`Ab@@?NHbAf@d@TfPfHpAj@pB|@fLjFvpAdj@bIjDhDjA|Cx@~@Tl@Nv@L~@J|APxAJx@F~ABn@Ar@@tB?b@?`@?vaA_@pA?|NIjvBk@`o@Ohu@WftA_@bSKjQGfAAn@?TAdA?bVEjeBa@X?jJBnELpHdAxHbCfVlIlP`Gnc@fOnW~I`y@|XvMfFzUxKxa@zQxGzCvE~CtBxB`C~ChDtGT`@`CjHdBnHRdAdj@z|CjQtaA~Gz_@`EdUxHzb@`K|j@fDbRrC|NnAxE`AvCjC|GjDrGvErG|WlXdAfA|XfYfZlZnAnApAnA||@x}@rHxHrCrC\\\\PPbBdBlS|Sz@x@~FfGnSzSh`At`AJJ~A~AXZ~H`Ij@l@h@j@n@n@n@n@lm@bn@nAjAjBhBhChCfC`C^Z|@n@fAt@`An@lAl@fAf@x@Zx@Xt@R~@Tv@Nl@Jn@Jl@F`@Bj@F`@?bA@xA@`M?nHB~m@CfK@|m@?`jA?zq@AlRAbJ@t@GTAV@\\@f@Bp@Dr@Fb@Db@H`ARn@Nz@ZvBv@~Az@zFlEXRb^zWtRvNtFlEh@`@ph@b`@d@Z~AlAVPpcAru@fXhSt]nWh@`@h@b@pSlOnLvIdCjB`OvK~C~B`Ap@r@f@l@`@j@\\~Av@fBt@bCt@j@NlAV`@FZD`AJR@hBFb\\?jE?B?N?T?nA?xYAxA?jE@rGAdH@`MA|G?|}@AzULpC?dNE~ACx@AnBCdJC|CAtBBpC`@r@LhDj@xA`@nBt@lAj@xAt@xA`AtEbDzBvAvCpBdDvBvBfAf@Vr@V`AZ`@Jb@JlANfAH`A?rBGjAOpCw@bAc@l@Y`@WjAy@bEgENOj@o@bH_IDGd`B_jBhCcDbGcHfFcGFGFGhAoAxCgDpPuQzPgSn_@ob@|EsFhJcLlGsIJOXc@JMJUd@u@DGnHgKdRyWfA{AtBoBrE}DhBk@~A]x@KzYWxGDv@?xMKlJAlXAhKItJDjUIfDNp@JPB~@LnAP~B`@xA`@jCv@hBp@^LrCrAn\\zOj@`@x@`@jAb@ZLnBb@j@L~@Lh@FjB@jAAz@CvAIzBc@vAa@vCoANKpCaB`HaE~KuGnAi@hAg@dDiAnC}@hCa@dFi@rAKz\\ItCFf@?|CAp|BSpq@@T?@?b@?fXFxLZbNEj}@DbELnBTbHlAxG|BvCpAtEnCfEbDvCzCpExEdIhL~lAv`BxeA~wA|\\vd@bWf]v{@lkAde@~n@fOzS`h@`s@ni@~s@duA|jBz^zf@tVv\\`@h@JNpJfM`f@~o@xJzMrF`I`FtHfX`a@zVj_@zBtDpCrEfLjRPVFL|Wzb@nDzF`MlSv`@`p@`l@j`AbBvCh@|@bB`CbBxBlCxC`E|DxEbEnE|DrHpGbFpEvG|F|TxRxEdElC|BlC~BxBpBhAbA|ApAnJlIbEtDvInH~AvAtVdTtVpTnRvPxExDhI|FzD~AnFrAbBf@f@Jb@HnBRjDLr@@lUCfA@N?F?d@?|ZZbT?dIB~BPjUEjIBxRNtIE|SBzUBrK@tVBvGAl^BbHAjb@?jy@@|tDD~tDEveACvO@rs@@fSGD?pNBpE@jA?F?H?rB?jK@hY?`QDtH@jr@?tw@AhLDblB@vB?vv@AnuDY`uDAjh@D|VBvVIv@BD?z@@tQ@|EJ|\\?l`@?|^?|tCIvzADjJEzPOfTMjTOxr@Op}BAnTAX?pN?hHDx{C@pj@IbiC@bf@Ate@KhN@vV@|X@ff@EN?p@?~e@?|OCfBEdAG~AS|Bc@pA_@bCu@|BeAjCyAxGcFjIiGj^eXhVwQlUeQdNgKpG_FrFgE|EqDrG{EfHkFnBuAp@c@p@a@~As@hE}AnA[~@QtASpAIfCKfCAH?tNA|d@AtIBpr@DjxB?zb@BR?D@zP?`UElNBhMEfYB`FEniDDlyA?zkCNRMtf@KX?xB?xAExAQzBYr@OPDzQ}EdCe@~C_@vDOhCC|CJ|CRzc@~FfD\\^BrCb@zC^|CLdBJxC?`CCbFStUs@rOUbB?xA?~T?nLBxUCzkANxpAOxkB@nA?`D@~T@~A?h@?\\?rEA~E?lG?~F?vE?tA?|H?~GAlKBrFAfLEt@?@?bPDjEAtA?|\\AnBA~PHtLKZA|CGdSq@fFQl@CbEAdB@b@?H?`@?h@?nE?j@@T@B?@?|@@zABX?`BBtK^xAL~LfAhARpBd@fC`ApB`A`CvA|CzBHHnAlAl@n@f@j@b@f@l@x@j@t@d@t@j@~@p@jA|CpF|K~RxL|SjDdGfHdMf@|@T`@@BT^f\\zk@x@lAhAjBr@fA|@rAbB`CvBtC|@hAhGnHnArA~JvKfIxIbAdA@@\\\\~@bAtD~DnBxBdDtDhCnCjHvH|@bAhApAlAnAjCtC`ClCn@p@v@z@z@z@~@x@`At@f@^h@^\\Rd@Xz@d@t@\\fAd@d@Rr@TzA`@t@Pp@Jh@Ht@Hh@DhBJ~A?t@AlG[R?rBI`BEv@AnACvAApB@bBBjABpADjAF|Fd@pLhA|@HzD\\P@rHb@dDNrEH~D?tC@hDATA@?dDCrBEv@Cz@C|@Ez@Ez@GjAIh@Gj@EdAKrBWjF{@jB]rEiAnBm@x@Yx@]t@[zAq@nC{A~@o@z@m@t@i@pAcApDuCfFcEvCqBTQLEPMVMjCmAb@QbBi@~Ac@vAWd@Id@EjHk@~CYtAMJCxDa@^EBAfBQtDu@`G}ApAa@xAe@hAe@fAe@^S\\Sb@Uf@]n@a@j@c@r@k@h@g@d@c@x@}@vBgC`BoBjAuADERUDEzAgBnEyEbCiCd@i@`F{FrAyAv@{@j@q@~@_Az@w@j@g@xB{Ah@]j@[?ANIr@_@r@]vAm@PGPGPIrAa@n@Mr@On@K|@K`CMpACjB@xGh@pJt@N@tE\\P@jBNf@@f@Bh@?`@A\\A`@CXC\\EZGx@Sd@O^O^O^Qn@[fAm@~BuAFEtBkAVQbBkAjBsAfA{@lByA?AjD{CXWXWxBiBpD{Cz@m@lA}@zA_AdF}BdBw@~Au@hGsBdPkDb@I@?LEXEBAj@Ob@Md@Qr@_@ZQVOf@_@PMPQ\\[VWh@o@X]Va@Xe@Xe@N[P]L]Rg@To@To@Vu@?AVw@r@}Bh@iBv@oCd@mATs@Ty@f@{Ab@uAXu@Zu@Re@Xk@Zi@Vc@T]TY\\c@^a@"
+                            }, 
+                            "duration": {
+                                "text": "2 hours 32 mins", 
+                                "value": 9091
+                            }, 
+                            "end_location": {
+                                "lat": 51.04279000000001, 
+                                "lng": -114.00859
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Take exit <b>254</b> toward <b>Blackfoot Trail S</b>", 
+                            "distance": {
+                                "text": "0.8 km", 
+                                "value": 793
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04279000000001, 
+                                "lng": -114.00859
+                            }, 
+                            "polyline": {
+                                "points": "mhpvHthzvTNCTMTOlAq@`@Ox@WnA_@lBm@xDgAL?HCrAc@j@O~Aa@\\GNC`@EZ@VBNDNDHBHFLJJLJLHNHTFVJ^?FBPBP@RHbCHhC@DD\\"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 42
+                            }, 
+                            "end_location": {
+                                "lat": 51.03702000000001, 
+                                "lng": -114.00935
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Merge onto <b>17 Ave SE</b>", 
+                            "distance": {
+                                "text": "0.6 km", 
+                                "value": 599
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.03702000000001, 
+                                "lng": -114.00935
+                            }, 
+                            "polyline": {
+                                "points": "kdovHlmzvTAh@A`ACp@?JA\\AXEdAIfBU|Cq@lIAT?BCPa@zFGfBE`AArAAz@?tABfA@Z"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 36
+                            }, 
+                            "end_location": {
+                                "lat": 51.03778000000001, 
+                                "lng": -114.01779
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>right</b> onto <b>17a St SE</b>", 
+                            "distance": {
+                                "text": "31 m", 
+                                "value": 31
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.03778000000001, 
+                                "lng": -114.01779
+                            }, 
+                            "polyline": {
+                                "points": "ciovHdb|vTQDC@EBY?"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 11
+                            }, 
+                            "end_location": {
+                                "lat": 51.03805000000001, 
+                                "lng": -114.01785
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>17 Ave SE</b>", 
+                            "distance": {
+                                "text": "0.5 km", 
+                                "value": 525
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.03805000000001, 
+                                "lng": -114.01785
+                            }, 
+                            "polyline": {
+                                "points": "yjovHpb|vT?h@?N?H@L@LPj@FRDL@L@N?V?p@?zC?pECN?xA@pBBfH?lG?FBL@D@DFJ"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 72
+                            }, 
+                            "end_location": {
+                                "lat": 51.03776000000001, 
+                                "lng": -114.02523
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>right</b> onto <b>9 Ave SE</b>", 
+                            "distance": {
+                                "text": "1.0 km", 
+                                "value": 1026
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.03776000000001, 
+                                "lng": -114.02523
+                            }, 
+                            "polyline": {
+                                "points": "_iovHtp}vTm@zBkBvGcC|IkEvOkC`JcAlDkDdMQn@q@jE"
+                            }, 
+                            "duration": {
+                                "text": "2 mins", 
+                                "value": 126
+                            }, 
+                            "end_location": {
+                                "lat": 51.04245, 
+                                "lng": -114.03785
+                            }
+                        }, 
+                        {
+                            "html_instructions": "Turn <b>left</b> onto <b>10 St SE</b><div style=\"font-size:0.9em\">Destination will be on the right</div>", 
+                            "distance": {
+                                "text": "0.1 km", 
+                                "value": 122
+                            }, 
+                            "travel_mode": "DRIVING", 
+                            "start_location": {
+                                "lat": 51.04245, 
+                                "lng": -114.03785
+                            }, 
+                            "polyline": {
+                                "points": "ifpvHp_`wTfCvADBB@B@B?DABA@CBE@EDMD_@"
+                            }, 
+                            "duration": {
+                                "text": "1 min", 
+                                "value": 56
+                            }, 
+                            "end_location": {
+                                "lat": 51.04153, 
+                                "lng": -114.038
+                            }
+                        }
+                    ], 
+                    "duration": {
+                        "text": "2 hours 56 mins", 
+                        "value": 10574
+                    }, 
+                    "end_location": {
+                        "lat": 51.04153, 
+                        "lng": -114.038
+                    }
+                }
+            ]
+        }
+    ], 
+    "status": "OK"
+}

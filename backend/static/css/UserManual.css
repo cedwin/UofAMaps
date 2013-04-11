@@ -1,0 +1,53 @@
+h1.mainTitle {
+text-align:center;
+}
+
+h3.title {
+text-decoration:underline;
+}
+
+tr.odd {
+background:#D8D8D8;
+}
+tr.even {
+background:#FFCC00;
+}
+
+table.content {
+width:460px;
+border:0px;
+}
+
+table.faq {
+width:100%;
+}
+
+div.toc {
+width:460px;
+margin-left:auto;
+margin-right:auto;
+}
+
+div.heading {
+width:430px;
+margin-left:auto;
+margin-right:auto;
+background:#339966;
+color:#FFFFFF;
+/*top and bot = 15px, left and right = 0px*/
+padding:15px;
+}
+
+div.contents {
+width:460px;
+margin-left:auto;
+margin-right:auto;
+}
+
+p.center {
+text-align:center;
+}
+
+ul {
+list-style-type: none;
+}

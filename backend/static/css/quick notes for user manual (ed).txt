@@ -1,0 +1,17 @@
+- consider doing a table of contents for quick navigation (DONE)
+- when referring to something (such as see next section)
+  maybe make the reference as a link and on click will focus
+  to it (DONE)
+- section 4. refers "(see 4.)" means "(see 3.)"? (DONE)
+- (esthetics) consider use some visual separator for each
+  div (ex: colors, or <hr>, etc...) (DONE)
+- the image in 3.3 url might be confusing to a user(maybe 
+  consider blurring or some how edit the url)
+- 4.1.1, 4.1.3 change "cached" to something more for dummies like
+  such as "stored" (some people might not know what it means) (DONE)
+- 3.3.1 and 3.3.2 maybe consider moving the popup image to the
+  Mobile and Web divs (even if they will show the same image),
+  in case the user skipped 3.3 and went directly to their applying
+  situation; or maybe refer to it in the wording such as 
+  "Please see figure X above."
+- maybe reserve space for a FAQ section as well (DONE)

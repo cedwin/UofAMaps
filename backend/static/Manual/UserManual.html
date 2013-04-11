@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII" />
+<title>Campus Maps User Maual</title>
+<link rel="stylesheet" type="text/css" href="UserManual.css">
+</head>
+
+<body>
+<br />
+
+<div class="heading">
+	<h1 class="mainTitle">Welcome to the University of Alberta Campus Maps</h1>
+    <p align="center">We are happy to now provide you with interior pathfinding.
+	Through the integration of indoor and outdoor pathing, it is now easier than
+	ever to plan the perfect route to your destination.</p>
+</div>
+
+<br />
+
+<div class="pb"></div> <!--Page Break-->
+
+<!-- Table of Contents -->
+<div class="toc">
+	<h2 align="center">Table of Contents</h2>
+  <ul>
+	<li>1. <a href="#1.0">Selecting a Campus</a></li>
+	<li>
+		<ul>
+			<li>1.1 <a href="#1.1">Initial Campus Selection</a></li>
+			<li>1.2 <a href="#1.2">Changing Campus</a></li>
+		</ul>
+	</li>
+	<li>2. <a href="#2.0">Interior Views</a></li>
+	<li>
+		<ul>
+			<li>2.1 <a href="#2.1">Map Controls</a></li>
+			<li>2.2 <a href="#2.2">Room Selection</a></li>
+			<li>2.3 <a href="#2.3">Floor Selection</a></li>
+			<li>2.4 <a href="#2.4">Mobile Floor Selection</a></li>
+		</ul>
+	</li>
+	<li>3. <a href="#3.0">Adding Waypoints</a></li>
+	<li>
+		<ul>
+			<li>3.1 <a href="#3.1">Point Selection</a></li>
+			<li>
+				<ul>
+					<li>3.1.1 <a href="#3.1.1">Outdoor Map Clicks</a></li>
+					<li>3.1.2 <a href="#3.1.2">Outdoor Building Clicks</a></li>
+					<li>3.1.3 <a href="#3.1.3">Selecting a Building From the Sidebar</a></li>
+				</ul>
+			</li>
+			<li>3.2 <a href="#3.2">Indoor Room Clicks</a></li>
+			<li>3.3 <a href="#3.3">Using My Current Location</a></li>
+			<li>
+				<ul>
+					<li>3.3.1 <a href="#3.3.1">Mobile</a></li>
+					<li>3.3.2 <a href="#3.3.2">Web</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>4. <a href="#4.0">Create a Path</a></li>
+	<li>
+		<ul>
+			<li>4.1 <a href="#4.1">Path Options</a></li>
+			<li>
+				<ul>
+					<li>4.1.1 <a href="#4.1.1">Indoor Preferences</a></li>
+					<li>4.1.2 <a href="#4.1.2">Outdoor Preferences</a></li>
+					<li>4.1.3 <a href="#4.1.3">Wheelchair Accessibility (Stairwell Avoidance)</a></li>
+				</ul>
+			</li>
+			<li>4.2 <a href="#4.2">Edit Waypoints</a></li>
+      <li>4.2 <a href="#4.3">Viewing the Path</a></li>
+		</ul>
+	</li>
+	<li>5. <a href="#5.0">Routes</a></li>
+	<li>
+		<ul>
+			<li>5.1 <a href="#5.1">Route Menu</a></li>
+			<li>5.2 <a href="#5.2">Loading Past Routes</a></li>
+			<li>5.3 <a href="#5.3">Clearing the Route</a></li>
+		</ul>
+	</li>
+	<li>6. <a href="#6.0">Services, Food, Coffee, Parking, etal</a></li>
+	<li>
+		<ul>
+			<li>6.1 <a href="#6.1">Searching for a Service</a></li>
+			<li>6.2 <a href="#6.2">Service Pins on the Map</a></li>
+			<li>6.3 <a href="#6.3">Clicking on a Service Pin</a></li>
+		</ul>
+	</li>
+	<li>7. <a href="#7.0">F.A.Q.</a></li>
+  </ul>
+</div>
+<br />
+
+<div class="pb"></div> <!--Page Break-->
+
+<div id="1.0" class="heading">
+	<h2 align="center">1. Selecting a Campus</h2>
+</div>
+
+<div class="contents" id="1.1">
+  <h3 align="center" class="title">1.1 Initial Campus Selection</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="InitialCampusSelect.png" width="250" height="265" alt="InitialCampusSelect" /></div></td>
+      <td width="176" height="0" align="left">Upon opening the web app, you will be presented with a choice of which campus you would like to see. Content is then tailored to the specific campus. Your choice is not permanent, and can be changed easily, as shown below.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id = "1.2">
+  <h3 align="center" class="title">1.2 Changing Campus</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="SelectCampusButton.png" width="250" height="283" alt="SelectCampusButton" /></div></td>
+      <td width="176" height="0" align="left">If you would like to change the current campus at any time, you can press the 'Select Campus' sidebar button shown on the left. This will display the list of campus choices again for you.</td>
+    </tr>
+  </table>
+  <hr><br>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="heading" id="2.0">
+  <h2 align="center">2. Interior  Views</h2>
+</div>
+<div class="contents">
+  <table width="460" border="0">
+    <tr>
+      <td height="0" align="left">After clicking on a building or selecting one from the sidebar, a popup appears which will have an option to view the interior of a building. When selected, the interior view is presented. This interior view allows you to select buildings as waypoints for pathing. There are a number of controls and a floor selector, which are described in detail below.</td>
+    </tr>
+    <tr>
+      <td width="154" height="0" align="left"><div align="center"><img src="InteriorViewImg.png" width="440" height="270" alt="InteriorViewImg" /></div></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="2.1">
+  <h3 align="center" class="title">2.1 Map Controls</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="MapControls.png" width="120" height="250" alt="MapControls" /></div></td>
+      <td width="176" height="0" align="left">When viewing interior views, these map controls can come in handy. The arrows control directional movements, with the rounded arrows rotating the map.To zoom in or out, use the plus and minus, respectively. When done viewing an interior, click 'Back to Maps' to go back to the outdoor map.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="2.2">
+  <h3 align="center" class="title">2.2 Room Selection</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><img src="RoomSelection.png" width="250" height="144" alt="RoomSelection" /></td>
+      <td width="176" height="0" align="left">By clicking on any interior room, you can see info about it and add it as a waypoint.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="2.3">
+	<h3 align="center" class="title">2.3 Floor Selection</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><img src="FloorSelection.png" width="275" height="24" alt="FloorSelection" /></td>
+      <td width="176" height="0" align="left">For buildings with multiple floors, the floor selector will be visible at the top of the screen. Each button will display a new view of the interior corresponding to the floor</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="2.4">
+	<h3 align="center" class="title">2.4 Mobile Floor Selection</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268" align="center"><img src="FloorSelectionMobile.png" width="250" height="367" alt="FloorSelectionMobile" /></td>
+      <td width="176" height="0" align="left">For buildings with multiple floors, the floor selector drop down menu will be visible at the top of the screen. Each button will display a new view of the interior corresponding to the floor</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="heading" id="3.0">
+	<h2 align="center">3. Adding Waypoints</h2>
+</div>
+
+<div class="contents">
+  <table width="460" border="0">
+    <tr>
+      <td width="154" height="0" align="left"><p align="center">A new addition to Campus Maps is waypoints. What are waypoints you might ask? Really, just any place you would like to visit. The new portion of the path planning is that you can now have multiple locations, indoor or outdoor , which you can visit in sequence. Technically, you can plan the route for your entire first day.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="3.1">
+	<h2 align="center" class="title">3.1 Point Selection</h2>
+	<!-- added for consistency, looks awkward, needs some filler -->
+	<hr>
+</div>
+
+<div class="contents" id="3.1.1">
+  <h3 align="center" class="title">3.1.1 Outdoor Map Clicks</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="OutdoorClick.png" width="250" height="149" alt="OutdoorClick" /></div></td>
+      <td width="176" height="0" align="left">You can click on any location on the map, even one that isn't a buidling! This location can be used in outdoor pathing as a waypoint.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="3.1.2">
+	<h3 align="center" class="title">3.1.2 Outdoor Building Clicks</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="OutdoorBuildingClick.png" width="250" height="160" alt="OutdoorBuildingClick" /></div></td>
+      <td width="176" height="0" align="left">Much like before, you can select a building from the outdoor map. From here you can either view the interior and select a room, or just select the building as a waypoint by clicking 'Directions'</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="3.1.3">
+	<h3 align="center" class="title">3.1.3 Selecting a Building from the Sidebar</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="SelectBuildingSidebar.png" width="250" height="131" alt="SelectBuildingSidebar" /></div></td>
+      <td width="176" height="0" align="left">Clicking the name of a building in the sidebar will act just like clicking it on the outdoor map. This way, if you know the name of your destination, but not the location, you can search for it with ease.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="3.2">
+	<h3 align="center" class="title">3.2 Indoor Room Clicks</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><img src="RoomSelection.png" width="250" height="144" alt="RoomSelection" /></td>
+      <td width="176" height="0" align="left">You can click on any interior room, and add it as a waypoint.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="3.3">
+	<h3 align="center" class="title">3.3 Using My Current Location</h3>
+  <table width="460" border="0">
+    <tr>
+      <td height="0" align="left">Your current location can be displayed on the map. You can then click it and add it as a waypoint. Geolocation works slightly differently depending upon wether you are a Web or Mobile user. However, both require you to allow the application to access your current location.</td>
+    </tr>
+    <tr>
+      <td width="154" height="0" align="left"><div align="center"><img src="MobilePermission.png" width="400" height="161" alt="MobilePermission" /></div></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="3.3.1">
+	<h3 align="center" class="title">3.3.1 Mobile</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="154" height="0" align="left">If you are a mobile user,
+	  you should be requested for location access upon page load.
+	  The application has the ability to track your position as you move,
+	  using your device's GPS.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="3.3.2">
+	<h3 align="center" class="title">3.3.2 Web</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="154" height="0" align="left">If you are a web user,
+	  you need to press the 'Current Location' button in the sidebar.
+	  After allowing the request, a pin will be placed as close as
+	  possible to your current location.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="heading" id="4.0">
+	<h2 align="center">4. Creating a Path</h2>
+</div>
+
+<div class="contents">
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="CreatePathHilighted.png" width="250" height="282" alt="CreatePathHilighted" /></div></td>
+      <td width="176" height="0" align="left">After at least two waypoints
+	  <a href="#3.0">(see section 3)</a> have been chosen, you can create a path.
+	  In order to do so, you need to first click the 'Create Path'
+	  button on the sidebar, which is shown in the image to the left.</td>
+	</tr>
+	<br><br>
+	<tr>
+      <td width="268"><div align="center"><img src="GetDirectionsImg.png" width="250" height="339" alt="GetDirectionsImg" /></div></td>
+      <td width="176" height="0" align="left">Once the Create Path window opens,
+	  you will see your waypoints listed in the boxes.
+	  To draw your path on the map, click 'Get Directions', which is
+	  highlighted in the picture to the left. Alternatively, there are
+	  some pathing options available. See the <a href="#4.1">next section (4.1)</a> for a
+	  better explanation of these options.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="4.1">
+	<h3 align="center">4.1 Pathing Options</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="MoreOptionsImg.png" width="250" height="360" alt="MoreOptionsImg" /></div></td>
+      <td width="176" height="0" align="left">The default pathing method that Campus Maps provides for you is the shortest possible path with no preferences with respect to indoor paths, outdoor paths, or wheelchair accessibility. If you prefer specific types of paths, or require elevators, click the 'Show Options' button. A drop down menu with more options will present itself. The three main options are described in the following subsections.</td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="4.1.1">
+	<h3 align="center" class="title">4.1.1 Indoor Preferences</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="InsidePrefImg.png" width="250" height="214" alt="IndoorPrefImg" /></div></td>
+      <td width="176" height="0" align="left"><p>If you would prefer a path that is as indoor as possible, perhaps on a cold winter day, you can enable the 'Inside' checkbox, as shown. Your paths will prefer indoor options over outdoor options, with as small of a length increase as possible. Your choice will be stored in your browser and the application will remember your chosen preference when you revisit the site using the same browser or mobile device.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="4.1.2">
+	<h3 align="center" class="title">4.1.2 Outdoor Preferences</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="OutsidePrefImg.png" width="250" height="214" alt="OutdoorPrefImg" /></div></td>
+      <td width="176" height="0" align="left"><p>If you would prefer a path that is as outdoor as possible, perhaps on a warm, sunny day, you can enable the 'Outside' checkbox, as shown. Your paths will prefer outdoor options over indoor options, with as small of a length increase as possible. Your choice will be stored in your browser and the application will remember your chosen preference when you revisit the site using the same browser or mobile device.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="4.1.3">
+	<h3 align="center" class="title">4.1.3 Wheelchair Accessibility (Stairwell Avoidance)</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="WheelchairAccessImg.png" width="250" height="212" alt="WheelchairAccessibilityImg" /></div></td>
+      <td width="176" height="0" align="left"><p>In order to avoid stairwells, you can enable the 'Wheelchair Accessible' checkbox, as shown. Your paths will avoid stairwells, if possible. Your choice will be stored in your browser and the application will remember your chosen preference when you revisit the site using the same browser or mobile device.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="4.2">
+  <h3 align="center" class="title">4.2 Editing Waypoints</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="editWaypoints.png" width="250" height="318" alt="editWaypoints" /></div></td>
+      <td width="176" height="0" align="left"><p>When editing your waypoints they should look similar to the screen shot on the left. To rearrange the waypoints just drag and drop each point into its
+      new desired position. You can also click the "x" at the end of each waypoint to remove it from the current path. To clear the entire path simply click "Clear Path". When done editing the waypoints simply click "Done".</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="4.3">
+	<h3 align="center" class="title">4.3 Viewing the Path</h3>
+  <table width="460" border="0">
+    <tr>
+      <td height="0" align="left">After clicking Get Directions, your path will be drawn on the map. This path may fit in one screen, if trying to find a path from two rooms on the same floor of the same building. However, some paths may be more complex and include both indoor and outdoor portions. To follow the path between transitions and floors, you can click the arrows at the bottom of the view.</td>
+    </tr>
+    <tr>
+      <td width="154" height="0" align="left"><div align="center"><img src="IndoorPath.png" width="440" height="181" alt="IndoorPath" /></div></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="heading" id="5.0">
+	<h2 align="center">5. Routes</h2>
+</div>
+
+<div class="contents" id="5.1">
+	<h3 align="center" class="title">5.1 Route Menu</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="RouteMenuImg.png" width="250" height="163" alt="RouteMenuImg" /></div></td>
+      <td width="176" height="0" align="left"><p>By selecting the Route submenu of the sidebar, you can view past routes. To do so, click the 'Load Past Route' button.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="5.2">
+	<h3 align="center" class="title">5.2 Loading Past Routes</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="PastRouteList.png" width="250" height="405" alt="PastRouteList" /></div></td>
+      <td width="176" height="0" align="left"><p>Up to 5 past routes are saved, for your convenience. Selecting one from the list will load it onto the screen, just as if you had requested a new path.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="5.3">
+	<h3 align="center" class="title">5.2 Clearing the Route</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="ClearRoute.png" width="250" height="180" alt="ClearRoute" /></div></td>
+      <td width="176" height="0" align="left"><p>To clear the Route, simply click the 'Clear route' button.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="heading" id="6.0">
+<h2 align="center">6. Services: Food, Coffee, Parking, etal</h2>
+</div>
+
+<div class="contents" id="6.1">
+	<h3 align="center" class="title">6.1 Searching for a Service</h3>
+  <table width="460" border="0">
+    <tr>
+      <td width="268"><div align="center"><img src="ServiceSearch.png" width="250" height="172" alt="Service Search" /></div></td>
+      <td width="176" height="0" align="left"><p>Services categories can be searched and selected from the sidebar under the Services submenu.</p></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="contents" id="6.2">
+	<h3 align="center" class="title">6.2 Service Pins on the Map</h3>
+  <table width="460" border="0">
+    <tr>
+      <td height="0" align="left">After selecting a service from the sidebar menu, pins corresponding to the service category will appear on the map. These can later be cleared in the services submenu.</td>
+    </tr>
+    <tr>
+      <td width="154" height="0" align="left"><div align="center"><img src="ServicePin.png" width="440" height="409" alt="ServicePin" /></div></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div class="contents" id="6.3">
+	<h3 align="center" class="title">6.3 Clicking on a Service Pin</h3>
+  <table width="460" border="0">
+    <tr>
+      <td height="0" align="left">By clicking on a service pin, one can find a description of the service at that location, and also can choose to add it as a waypoint.</td>
+    </tr>
+    <tr>
+      <td width="154" height="0" align="left"><div align="center"><img src="ServiceClick.png" width="440" height="498" alt="ServiceClick" /></div></td>
+    </tr>
+  </table>
+  <hr>
+</div>
+
+<div class="pb"></div> <!--Page Break-->
+
+<div id="7.0" class="heading">
+	<h2 align="center">7. F.A.Q.</h2>
+</div>
+
+<div class="contents">
+	<br>
+	<table class="faq" border="0">
+		<tr class="odd">
+			<td>Question</td>
+			<td>Answer</td>
+		</tr>
+		<tr class="even">
+			<td>How do I find my location?</td>
+			<td>
+				<ol>
+					<li>Open the sidebar, if it is not open.</li>
+					<li>Click the "Current Location" button.</li>
+					<li>Accept the request popup.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I get directions?</td>
+			<td>
+				<ol>
+					<li>After selecting atleast two locations, click the "Create Path" button.</li>
+					<li>Verify the order of your waypoints in the menu.</li>
+					<li>Click the "Get Directions" button.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>How do I customize my directions?</td>
+			<td>
+				<ol>
+					<li>After selecting atleast two locations, click the "Create Path" button.</li>
+					<li>To change the order of waypoints in the menu, click the "Edit Waypoints" button.</li>
+					<li>Click and drag the elements to the desired order.</li>
+					<li>Click the "Done" button</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I change the campus?</td>
+			<td>
+				<ol>
+					<li>Click the "Select Campus" button on the sidebar.</li>
+					<li>Click the desired campus in the menu.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>How do I find a building?</td>
+			<td>
+				<ol>
+					<li>Click the "Buildings" button on the sidebar.</li>
+					<li>Start entering the name of the building into the filter.</li>
+					<li>Select the desired building from the list.</li>
+				</ol>
+				<br>
+				* Alternatively, if you know the location of the building, you can click it on the map.
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I find a find a service?</td>
+			<td>
+				<ol>
+					<li>Click the "Services" button on the sidebar.</li>
+					<li>Select the desired service by category in the drop down menu.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>How do I load a past route?</td>
+			<td>
+				<ol>
+					<li>Click "Routes" on the sidebar.</li>
+					<li>Click "Load Past Routes" in the drop down menu.</li>
+					<li>Select the desired past route from the pop-up.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I view the sidebar on mobile?</td>
+			<td>
+				<ol>
+					<li>Touch the sidebar button located at the top left corner.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>How do I view the inside of a building?</td>
+			<td>
+				<ol>
+					<li>Click the building on the map or select the buildings menu.</li>
+					<li>If the building has an available interior map, an interior map button will be available.</li>
+					<li>Click the interior map button.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I get navigate through directions?</td>
+			<td>
+				<ol>
+					<li><p>You can click the arrow buttons located on the bottom corners.</p></li>
+					<p class="center">Or</p>
+					<li><p>You can select the step from the routes submenu.<p></li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>How do I clear my currently displayed route?</td>
+			<td>
+				<ol>
+					<li>Click "Routes" on the sidebar menu.</li>
+					<li>Click "Clear Routes".</li>
+				</ol>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>How do I find routes with wheelchair access?</td>
+			<td>
+				<ol>
+					<li>When creating a path, click on the "Show Options" button.</li>
+					<li>Check the "Wheelchair Accessible" option.</li>
+				</ol>
+			</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

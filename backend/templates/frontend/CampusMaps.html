@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>401 Campus Maps</title>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<!-- CSRF Protection-->
+{% csrf_token %}
+<!-- CSS -->
+<link rel="stylesheet" href="static/css/CampusMaps.css">
+<link rel="stylesheet" href="static/css/jquery.mobile-1.3.0.min.css">
+<link rel="stylesheet" href="static/css/themes/UofA.css">
+<!-- JavaScript-->
+<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAeQ8Ir1uB4HzkKkkoRuVhRRT702B-jOM_-yHfnYnl1LJ99jONgRSAO-PeHsjPWXiiKgmnmYgUe8hGTQ"></script>
+<!-- <script type="text/javascript">google.load('jquery', '1');google.load('jqueryui', '1');</script> -->
+<script type="text/javascript" charset="utf-8">
+function init() {
+            if(isAndroid()){
+            $("script").attr("src", "static/js/cordova-2.5.0.js").appendTo("head");
+        }else if(isiOS()){
+            $("script").attr("src", "static/js/cordova.ios.js").appendTo("head");
+        }
+
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    function isAndroid(){
+        return navigator.userAgent.indexOf("Android") > 0;
+    }
+
+    function isiOS(){
+        return ( navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("iPad") > 0 || navigator.userAgent.indexOf("iPod") > 0);
+    }
+
+    function onDeviceReady(){
+        console.log("device is ready");
+    }
+</script>
+<script src="static/js/jquery-1.9.1.js"></script>
+<script src="static/js/jquery.mobile-1.3.0.js"></script>
+<!-- kris add march 26/13 - for using sortable lists
+        All jquery UI being brought in here, can download a
+        custom version for the sortable. It needs to components
+        core, widget, mouse, sortable -->
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<script type="text/javascript" src="static/js/jquery.ui.touch-punch.min.js"></script>
+<!-- /kris add march 26/13 -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+</head>
+<!--application UI goes here-->
+<body id="content" >
+	<div data-role="page" data-theme="b" id="mainPage" class="ui-responsive-panel" data-dismissable="false">
+        <div data-role="panel" id="sidebar" data-dismissable="false" data-theme="b" data-position="left" >
+        <!-- panel content goes here -->
+            <div data-role="listview">
+                <ul>
+                    <li>
+                        <div id="listheader">
+                            <a href="https://beartracks.ualberta.ca/" target="_blank" data-role="button">
+                                <img id="beartracks" src="static/css/img/beartracks50.png" />
+                                <span class="listheadertext">BearTracks</span>
+                            </a>
+<!--                             <a href="https://eclass.srv.ualberta.ca/" target="_blank" data-role="button">
+                                <img id="eclass" src="static/css/img/eclass.png" />
+                                <span class="listheadertext">eClass</span>
+                            </a> -->
+                            <a href="http://apps.ualberta.ca/" target="_blank" data-role="button">
+                                <img id="apps" src="static/css/img/apps-128.png" />
+                                <span class="listheadertext">Mail & Apps</span>
+                            </a>
+                        </div>
+                    </li>
+					<li><a data-role="button" href="#" onclick="cordovaGeolocationInit();"  data-icon="gear">Current Location</a></li>
+                </ul>
+            </div>
+
+            <div> <!--Campus'-->
+                <div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="home" data-expanded-icon="arrow-d" id="campusSelectCollapse" >
+                    <h2>Select Campus</h2>
+                        <ul data-role="listview">
+                            <li id="northCampusButton"><a href="#" onclick="campusSelect(0);">North Campus</a></li>
+                            <li id="southCampusButton"><a href="#" onclick="campusSelect(1);">South Campus</a></li>
+                            <li id="saintJeanButton"><a href="#" onclick="campusSelect(3);">Campus Saint-Jean</a></li>
+                            <li id="enterpriseSquareButton"><a href="#" onclick="campusSelect(4);">Enterprise Square Campus</a></li>
+                            <li id="augustanaButton"><a href="#" onclick="campusSelect(2);">Augustana Campus</a></li>
+                            <li id="calgaryButton"><a href="#" onclick="campusSelect(5);">Calgary Center</a></li>
+                        </ul>
+                </div><!-- /collapsible -->
+            </div> <!--/campus'-->
+
+           <div><!-- start of createPath -->
+                <div data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="plus" data-expanded-icon="arrow-d" id="createPathDropDown">
+                    <h2>Create Path</h2>
+                    <form id="waypointsForm">
+                        <div id="wayPointsHolder" style="margin-bottom:3em;">
+
+                            <ul data-role="listview" id="reorderWayPointsList" data-theme="b" data-inset="true" data-split-icon="delete">
+
+                            </ul>
+                        </div>
+                    </form>
+
+                    <a href="#" data-role="button" id="clearCurrentRoute" style="margin-top:3em;text-align:center;display:none;" onclick="clearCurrentPath()"  >Clear Path</a>
+
+                    <a href="#" data-role="button" id="expandEditWaypoints" style="margin-top:3em;text-align:center;" onclick="reorderCurrentPath()" >Edit Waypoints</a>
+
+                    <a href="#" data-role="button" id="finishedEditing" style="margin-top:3em;text-align:center;display:none;" onclick="finishedEditingWaypoints()" >DONE</a>
+
+                    <a href="#" data-role="button" id="expandPathOptions" style="margin-top:3em;text-align:center;" onclick="showMorePathOptions()" >Show Options</a>
+
+                    <a href="#" data-role="button" id="collapsePathOptions" style="margin-top:3em;text-align:center;display:none;" onclick="showMorePathOptions()" >Hide Options</a>
+
+                    <a href="#" data-role="button" id="getDirections" style="margin-top:3em;text-align:center;" onclick="gatherRouteInfo()" >GET DIRECTIONS</a>
+
+                    <div id="poShow" class="pathOptions ui-screen-hidden">
+                        <hr class="style-one" />
+                        <form>
+                            <fieldset data-role="controlgroup" data-iconpos="right">
+                                <h4 style="margin-bottom:1em;">Path Preferences</h4>
+
+                                    <input type="radio" name="routePrefs" id="routePrefs-1" value="1" />
+                                    <label for="routePrefs-1">Outside</label>
+
+                                    <input type="radio" name="routePrefs" id="routePrefs-2" value="5" />
+                                    <label for="routePrefs-2">Neutral</label>
+
+                                    <input type="radio" name="routePrefs" id="routePrefs-3" value="10"/>
+                                    <label for="routePrefs-3">Inside</label>
+                            </fieldset>
+                            <fieldset data-role="controlgroup" data-iconpos="right">
+
+                                <input type="checkbox" name="handiCheckBox" id="handiCheckBox">
+                                <label for="handiCheckBox">Wheelchair Accessible</label>
+
+                            </fieldset>
+                        </form>
+                    </div><!-- /complexTab -->
+                </div><!-- /collapsible -->
+            </div><!-- /createPath -->
+
+            <div> <!-- Path list -->
+                <div id="directionsCollapsible" data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="star" data-expanded-icon="arrow-d" >  <!-- collapsible -->
+                    <h2>Routes</h2>
+                        <ul data-role="listview" id="directionsList">
+
+                        </ul>
+                        <br />
+                    <a href="#" data-role="button" style="margin-top:3em;text-align:center;" onclick="clearDirections()">Clear route</a>
+                    <a href="#" data-role="button" style="margin-top:3em;text-align:center;" onclick="showRouteHistory()">Load past routes</a>
+                </div> <!-- /collapsible -->
+            </div> <!-- /Path List -->
+
+			<div> <!--Services-->
+                <div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="search" data-expanded-icon="arrow-d" >
+                    <h2>Services</h2>
+					<a data-role="button" data-theme="b" style="margin-top:0em;margin-bottom:0.5em;text-align:center;" onclick="map.clearOverlays()">Clear Services</a>
+					<br>
+						<ul data-role="listview" data-filter="true">
+							<li><a href="#" onclick="getExteriorData(2,1)">Food</a></li>
+							<li><a href="#" onclick="getExteriorData(2,2)">Coffee</a></li>
+							<li><a href="#" onclick="getExteriorData(1,32)">Parking</a></li>
+							<li><a href="#" onclick="getExteriorData(2,16)">ATM</a></li>
+							<li><a href="#" onclick="getExteriorData(3,1)">Library & Study Spaces</a></li>
+							<li><a href="#" onclick="getExteriorData(2,8)">Computer Labs & Printing</a></li>
+							<li><a href="#" onclick="getExteriorData(1,16)">Bike Racks</a></li>
+							<li><a href="#" onclick="getExteriorData(3,2)">Art Venues</a></li>
+							<li><a href="#" onclick="getExteriorData(2,128)">Student Services</a></li>
+							<li><a href="#" onclick="getExteriorData(5,1)">Facilities</a></li>
+							<li><a href="#" onclick="getExteriorData(2,4)">Post Office & Shopping</a></li>
+							<li><a href="#" onclick="getExteriorData(3,4)">Museums & Collections</a></li>
+							<li><a href="#" onclick="getExteriorData(2,32)">InfoLink Booths</a></li>
+							<li><a href="#" onclick="getExteriorData(5,2)">Green Spaces</a></li>
+							<li><a href="#" onclick="getExteriorData(4,1)">Landmarks</a></li>
+						</ul>
+                </div><!-- /collapsible -->
+            </div> <!--/services-->
+
+			<div> <!--Buildings-->
+				<div data-role="collapsible" id="buildingSelectCollapse" data-theme="b" data-content-theme="a" data-collapsed-icon="grid" data-expanded-icon="arrow-d" >
+					<h2>Buildings</h2>
+					<ul data-role="listview" id="buildingSelection" data-autodividers="true" data-filter="true">
+						<!-- This list is dynamically filled by 'appendToBuildingsList()' in mapping.js -->
+					</ul>
+				</div><!-- /collapsible -->
+			</div> <!--/Buildings-->
+
+
+
+            <!-- <div id="dummy" style="height:1000px;width:100%;"> </div> -->
+        </div>
+        <!-- /panel -->
+
+        <!-- The header which shows the UofA logo and "Campus Maps"-->
+        <div id="sticky"  class="ui-panel-display-reveal ui-panel-animate">
+    		<div id="header" data-role="header" data-theme="b" data-tap-toggle="false">
+				<a href="static/Manual/UserManual.html" data-icon="alert" target="_blank" id="helpButton" class="ui-btn-right">Help</a>
+                <div class="oval-container">
+                    <div class="oval oval1"></div>
+                    <div class="oval oval2"></div>
+                    <div class="oval oval3"></div>
+                    <div class="oval oval4"></div>
+                </div>
+                <div class="shadow-container"></div>
+                <div class="banner-inner">
+                        <div class="banner-logo">
+                            <a href="#UserManual.html" onclick="showSidebar();"><img id="sidebarmenu" src="static/css/img/nav.png" ></img></a>
+                            <a href="http://www.ualberta.ca/" target="_blank"><img id="logo" src="static/css/img/logo-reverse-small.svg" ></img></a>
+                            <div class="header_title">Campus Maps</div>
+                        </div>
+                </div>
+            </div>
+            <!--/header-->
+
+            <div id="mainContent" class="content" data-role="content" >
+                <!-- Floor selector  -->
+                <div  id="floor_selector" style="display:none;" data-theme="b">
+                    <form>
+                        <fieldset  id="floor_selector_field" data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        </fieldset>
+                    </form>
+                </div>
+                <div  id="floor_selector_mobile" style="display:none;" data-theme="b">
+                    <div id="floor_selector_dropdown" data-role="collapsible" data-theme="b" data-mini="true" data-collapsed="true">
+                        <h2>Level's</h2>
+
+                            <ul id='floor_sel' data-role="listview" data-mini="true">
+                            </ul>
+
+                    </div>
+                </div>
+                <!-- /Floor selector  -->
+                <!-- Interior Controls -->
+                <div id="interior_controls" style="display:none;">
+                    <h2>Map Controls</h2>
+                    <!-- Pan Controls -->
+                    <div class="interior_controls_pan">
+                        <div id="interior_controls_panUp"><a href="#" title="Pan Up"></a></div>
+                        <div id="interior_controls_panleft"><a href="#" title="Pan Left"></a></div>
+                        <div id="interior_controls_panRight"><a href="#" title="Pan Right"></a></div>
+                        <div class="clear"></div>
+                        <div id="interior_controls_panDown"><a href="#" title="Pan Down"></a></div>
+                    </div>
+                    <!-- Rotate Controls -->
+                    <div id="interior_controls_rotateLeft"><a href="#" title="Rotate Clockwise"></a></div>
+                    <div id="interior_controls_rotateRight"><a href="#" title="Rotate Counter Clockwise"></a></div>
+                    <div class="clear"></div>
+                    <!-- Zoom Controls -->
+                    <div class="interior_controls_zoom">
+                        <div id="interior_controls_ZoomIn"><a href="#" title="Zoom In"></a></div>
+                        <div id="interior_controls_ZoomOut"><a href="#" title="Zoom Out"></a></div>
+                    </div>
+                    <!-- Exit Button -->
+                    <div id="interior_controls_exit"><a href="#"><i></i>Back to Maps</a></div>
+                    <!-- <div id="interior_controls_draw"><a href="#"><i></i>Draw Path</a></div> -->
+                </div>
+                <!--/Interior Controls-->
+                <!-- Our Interior drawing canvas -->
+                <div id="interiorCanvas"></div>
+                <!-- This is the google map canvas -->
+                <div id="mapCanvas"></div>
+            </div>
+            <div id="directions_naviagation" data-role="footer">
+                <span>
+                <div class="oval-container">
+                    <div class="oval oval1"></div>
+                    <div class="oval oval2"></div>
+                    <div class="oval oval3"></div>
+                    <div class="oval oval4"></div>
+                </div>
+                <div class="shadow-container"></div>
+                <div id="directions_naviagation_back" onclick=""> </div>
+                <div id="directions_naviagation_info" onclick="">
+
+                </div>
+                <div id="directions_naviagation_fwd" onclick=""> </div>
+                <span>
+            </div>
+        </div>
+        <!-- /content -->
+        <!-- Progress popup -->
+        <div id="progressPopup" data-role="popup" class="ui-content" data-theme="b" data-overlay-theme="a" data-position-to="window" data-transition="slidedown">
+        </div>
+        <!-- Route history -->
+        <div data-role="popup" id="routehistory" data-theme="b" data-overlay-theme="b" data-position-to="window"  data-native-menu="true" data-transition="pop" style="width:17em;">
+            <div data-role="header" data-theme="b">
+                <h2 role="heading">Past Routes</h2>
+            </div>
+            <h1 style="text-align:center;font-size:0.6em">MOST RECENT</h1>
+            <ul data-role="listview" id="pastpaths">
+            </ul>
+            <h1 style="text-align:center;font-size:0.6em">LEAST RECENT</h1>
+        </div>
+        <!-- This is the 'select campus' popup-->
+        <div data-role="popup" id="campusPopup" data-theme="b" data-history="false" data-dismissible="false" data-overlay-theme="b" data-position-to="window" data-transition="pop" style="min-width:17em;">
+            <div data-role="header" data-theme="b" >
+                <h1 data-inline="True " style="margin-left: auto;margin-right: auto;">Select A Campus</h1>
+            </div>
+            <ul data-role="listview">
+                <li id="northCampusButton"><a href="#" data-rel="back" onclick="campusSelect(0);">North Campus</a></li>
+                <li id="southCampusButton"><a href="#" data-rel="back" onclick="campusSelect(1);">South Campus</a></li>
+                <li id="saintJeanButton"><a href="#" data-rel="back" onclick="campusSelect(3);">Campus Saint-Jean</a></li>
+                <li id="enterpriseSquareButton"><a href="#" data-rel="back" onclick="campusSelect(4);">Enterprise Square Campus</a></li>
+                <li id="augustanaButton"><a href="#" data-rel="back" onclick="campusSelect(2);">Augustana Campus</a></li>
+                <li id="calgaryButton"><a href="#" data-rel="back" onclick="campusSelect(5);">Calgary Center</a></li>
+            </ul>
+        </div><!--/campusPopup-->
+
+    </div><!--/mainPage-->
+<!-- Our JavaScript -->
+<!-- <script type="text/javascript" src="static/js/UAlberta.Maps.Interior.js"></script>
+<script type="text/javascript" src="static/js/UAlberta.Maps.Exterior.js"></script>
+<script type="text/javascript" src="static/js/UAlberta.Maps.Exterior.Utilites.js"></script> -->
+<script type="text/javascript" src="static/js/UAlberta.Maps.Interior.js"></script>
+<script type="text/javascript" src="static/js/UAlberta.Maps.Exterior.min.js"></script>
+<script type="text/javascript" src="static/js/UAlberta.Maps.Exterior.Utilites.min.js"></script>
+<!-- <script src="static/js/waypoint.js"></script>
+<script src="static/js/mapping.js"></script> -->
+<script src="static/js/CampusMaps.min.js"></script> 
+<script src="static/js/waypoint.min.js"></script>
+<script src="static/js/mapping.min.js"></script>
+<!-- <script src="static/js/CampusMaps.min.js"></script> -->
+<script>
+google.maps.event.addDomListener(window, "load", initialize);
+document.addEventListener("deviceready", phoneGap, false); // uncomment for cordova device GPS
+</script>
+</body>
+</html>

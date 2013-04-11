@@ -1,0 +1,53 @@
+{
+	"d":{
+		"__type":"UAlberta.WebService.Maps.Data.ExteriorReturn",
+		"Markers":[
+			{
+				"Coords":{"lat":53.520614,"lng":-113.529409},
+				"Name":"Vic",
+				"Description":"<div class='bubbleContainer_layer clearfix'>Web Designer of campus maps<br/><a href='http://www.vkmach.com' target='_blank'>www.vkmach.com</a><br/><a href='https://twitter.com/vmach' target='_blank'>@vmach</a></div>",
+				"IconUrl":"/css/custom/maps/img/vic-icon.png"
+			},
+			{
+				"Coords":{"lat":53.520490,"lng":-113.529366},
+				"Name":"Scott",
+				"Description":"<div class='bubbleContainer_layer clearfix'>Project Manager of campus maps<br/><a href='https://twitter.com/Wierstra76' target='_blank'>@Wierstra76</a></div>",
+				"IconUrl":"/css/custom/maps/img/scott-icon.png"
+			},
+			{
+				"Coords":{"lat":53.520570,"lng":-113.529285},
+				"Name":"Dean",
+				"Description":"<div class='bubbleContainer_layer clearfix'>Developer of campus maps<br/><a href='http://www.vig.vg' target='_blank'>www.vig.vg</a><br/><a href='https://twitter.com/vigorator' target='_blank'>@vigorator</a></div>",
+				"IconUrl":"/css/custom/maps/img/dean-icon.png"
+			},
+			{
+				"Coords":{"lat":41.854673,"lng":-1.575417},
+				"Name":"Ecce Homo",
+				"Description":"<div class='bubbleContainer_layer clearfix'>Ecce Homo<br/><img src='http://vig.vg/Images/gifs/ecce_homo.jpg' /></div>",
+				"IconUrl":"/css/custom/maps/img/eccehomo-icon.png"
+			},
+			{
+				"Coords":{"lat":37.51714,"lng":127.041298},
+				"Name":"Gangnam Style",
+				"Description":"<div class='bubbleContainer_layer clearfix'>PSY - Gangnam Style<br/><img src='http://vig.vg/Images/gifs/gangnamstyle.gif' /></div>",
+				"IconUrl":"/css/custom/maps/img/psy-icon.png"
+			},
+			{
+				"Coords":{"lat":53.522488,"lng":-113.524588},
+				"Name":"Batman",
+				"Description":"<div class='bubbleContainer_layer clearfix'>I Am The Batman</div>",
+				"IconUrl":"/css/custom/maps/img/batman-icon.png"
+			},
+			{
+				"Coords":{"lat":53.525285,"lng":-113.5272},
+				"Name":"Sax Guy",
+				"Description":"<div class='bubbleContainer_layer clearfix'>Sax Guy<br/><iframe width='560' height='315' src='http://www.youtube.com/embed/t1kApnsayeQ' frameborder='0' allowfullscreen></iframe></div>",
+				"IconUrl":"/css/custom/maps/img/saxguy-icon.png"
+			}
+		],
+		"Lines":[],
+		"PolyLines":[],
+		"Polys":[],
+		"Labels":[]
+	}
+}
